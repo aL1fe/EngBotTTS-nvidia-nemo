@@ -1,0 +1,1 @@
+docker build -t al1fe/text_to_speech-nvidia-nemo -f Dockerfile .

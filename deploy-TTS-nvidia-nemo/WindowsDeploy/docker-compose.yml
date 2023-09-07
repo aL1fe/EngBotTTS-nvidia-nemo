@@ -5,5 +5,5 @@ services:
     container_name: tts-nemo
     image: al1fe/text_to_speech-nvidia-nemo
     restart: unless-stopped
-    # ports:
-      # - 8055:8000
+    ports:
+      - 8055:8000
